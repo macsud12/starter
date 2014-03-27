@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
 /**
- * Created by Maksim_Alipov on 1/30/14.
+ * Created by Maksim_Alipov.
  */
 @ComponentScan(basePackages = "com.macs.starter")
 @EnableAutoConfiguration

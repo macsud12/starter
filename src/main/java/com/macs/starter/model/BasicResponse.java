@@ -1,11 +1,15 @@
 package com.macs.starter.model;
 
 /**
- * Created by Maksim_Alipov on 1/31/14.
+ * Created by Maksim_Alipov.
  */
-public class BasicResponse {
+public class BasicResponse<T> {
     private String version = "1.0";
-    private Object content;
+    private T content;
+
+    public BasicResponse(T content) {
+        this.content = content;
+    }
 
     public String getVersion() {
         return version;
@@ -15,11 +19,11 @@ public class BasicResponse {
         this.version = version;
     }
 
-    public Object getContent() {
+    public T getContent() {
         return content;
     }
 
-    public void setContent(Object content) {
+    public void setContent(T content) {
         this.content = content;
     }
 }
