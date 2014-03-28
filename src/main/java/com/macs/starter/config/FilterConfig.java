@@ -21,9 +21,9 @@ public class FilterConfig {
 
     @Configuration
     protected static class ApplicationContextFilterConfiguration {
-        @Bean
-        public javax.servlet.Filter checkTokenFilter(ApplicationContext context) {
-            return new ClientIdFilter();
-        }
+//        @Bean
+//        public javax.servlet.Filter checkTokenFilter(ApplicationContext context) {
+//            return new ClientIdFilter();
+//        }
     }
 }

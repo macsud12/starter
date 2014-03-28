@@ -38,19 +38,8 @@ public class NoteService {
 
     @RequestMapping(method = RequestMethod.POST)
     public @ResponseBody
-    BasicResponse<Boolean> post(
+    BasicResponse<Boolean> post(@RequestParam(value="id", required=false, defaultValue="") String id,
             @RequestParam(value="content") String content, HttpServletResponse response) {
-        noteHolder.save(getCurrentUser(), new Note(content));
-        response.setStatus(HttpStatus.CREATED.value());
-        return new BasicResponse<Boolean>(true);
-    }
-
-    @RequestMapping(method = RequestMethod.PUT)
-    public @ResponseBody
-    BasicResponse<Boolean> put(
-            @RequestParam(value="id", required=false, defaultValue="") String id,
-            @RequestParam(value="content", required=false, defaultValue="") String content,
-            HttpServletResponse response) {
         if (id == null || id.isEmpty()) {
             noteHolder.save(getCurrentUser(), new Note(content));
             response.setStatus(HttpStatus.CREATED.value());

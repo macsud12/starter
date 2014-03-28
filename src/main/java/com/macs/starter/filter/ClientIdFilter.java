@@ -7,7 +7,10 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;
@@ -20,6 +23,7 @@ import java.util.Arrays;
 /**
  * Created by Maksim_Alipov.
  */
+@Component
 public class ClientIdFilter extends OncePerRequestFilter {
 
     private static final Log log = LogFactory.getLog(ClientIdFilter.class);
@@ -38,7 +42,8 @@ public class ClientIdFilter extends OncePerRequestFilter {
         response.addHeader("token:", "filter");
         if (clientIdService.isClientIdValid(request.getHeader("client-id"))) {
             log.info("auth started");
-            starterAuthProvider.authenticate(new UsernamePasswordAuthenticationToken("user", "password", Arrays.asList(new SimpleGrantedAuthority("USER"))));
+            Authentication auth = starterAuthProvider.authenticate(new UsernamePasswordAuthenticationToken("user", "password", Arrays.asList(new SimpleGrantedAuthority("USER"))));
+            SecurityContextHolder.getContext().setAuthentication(auth);
             log.info("auth finished");
         }
 
