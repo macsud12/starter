@@ -86,21 +86,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/macs/starter/storage/NoteHolder.java" line="43" class="com.macs.starter.storage.NoteHolder" package="com.macs.starter.storage">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -111,19 +96,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/AuthService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="8" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NoteService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/NoteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="5" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1190">
+            <state line="54" column="23" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.7076023" vertical-offset="555" max-vertical-offset="1139">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,64 +107,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterConfig.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/config/FilterConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="1" selection-start="958" selection-end="958" vertical-scroll-proportion="0.5762712" vertical-offset="0" max-vertical-offset="472">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NoteHolder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/storage/NoteHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="19" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="1071">
+            <state line="38" column="9" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StarterAuthProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterAuthProvider.java">
+      <file leaf-file-name="BasicResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/model/BasicResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="12" column="0" selection-start="70" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StarterUserDetailsService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterUserDetailsService.java">
+      <file leaf-file-name="Note.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/model/Note.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="11" column="22" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="833">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/config/WebSecurityConfig.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="47" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="714">
-              <folding />
+            <state line="67" column="10" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1241">
+              <folding>
+                <marker date="1396023923093" expanded="true" signature="940:1074" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientIdFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/filter/ClientIdFilter.java">
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="8" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientIdService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/auth/ClientIdService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="5" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -210,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/HelloService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/service/StarterUSerDetailsSerrvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/service/StarterUserDetailsSerrvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/service/StarterUserDetailsService.java" />
@@ -222,20 +192,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/model/Hello.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/Auth.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/Note.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/model/BasicResponse.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/model/Note.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/storage/NoteHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterAuthProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/NoteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/AuthService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/filter/TokenBasedAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/filter/ClientIdFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/config/FilterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/filter/ClientIdFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterAuthProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/storage/NoteHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/NoteService.java" />
       </list>
     </option>
   </component>
@@ -484,97 +455,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="endpoints" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -766,7 +647,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2821577" sideWeight="0.76829267" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524272" sideWeight="0.76829267" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33841887" sideWeight="0.23170732" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -775,7 +656,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09079118" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2580231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2631579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -896,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/filter/GenericFilterBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="51" selection-start="211" selection-end="231" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="816" />
@@ -940,36 +814,6 @@
         <state line="8" column="18" selection-start="283" selection-end="283" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/model/BasicResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="11" selection-start="4247" selection-end="4247" vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1938">
@@ -984,17 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="190" column="25" selection-start="10016" selection-end="10016" vertical-scroll-proportion="0.0" vertical-offset="2463" max-vertical-offset="4828">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/model/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="867">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/storage/NoteHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="19" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RELEASE/spring-security-core-3.2.0.RELEASE-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="11" selection-start="2618" selection-end="2618" vertical-scroll-proportion="1.0754437" vertical-offset="123" max-vertical-offset="1513">
@@ -1095,61 +921,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="5" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/auth/StarterAuthProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="11" column="26" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/auth/ClientIdService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
+        <state line="67" column="10" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="1241">
+          <folding>
+            <marker date="1396023923093" expanded="true" signature="940:1074" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/AuthService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/model/Note.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/NoteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="5" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1190">
+        <state line="11" column="22" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="833">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/config/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/storage/NoteHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="47" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="714">
+        <state line="38" column="9" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/filter/ClientIdFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/model/BasicResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="8" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
+        <state line="12" column="0" selection-start="70" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/config/FilterConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/macs/starter/endpoints/NoteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="958" selection-end="958" vertical-scroll-proportion="0.5762712" vertical-offset="0" max-vertical-offset="472">
-          <folding />
+        <state line="54" column="23" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.7076023" vertical-offset="555" max-vertical-offset="1139">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

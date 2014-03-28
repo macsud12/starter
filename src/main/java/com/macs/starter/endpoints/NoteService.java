@@ -5,9 +5,6 @@ import com.macs.starter.model.Note;
 import com.macs.starter.storage.NoteHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -53,12 +50,12 @@ public class NoteService {
     @RequestMapping(method = RequestMethod.DELETE)
     public @ResponseBody
     BasicResponse<Boolean> delete(
-            @RequestParam(value="id", required=false, defaultValue="") String id) {
+            @RequestParam(value="id", required=true) String id) {
         Boolean result = noteHolder.delete(getCurrentUser(), id);
         return new BasicResponse<Boolean>(result);
     }
 
     private String getCurrentUser() {
-        return ((User) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUsername();
+        return "loggedInDummyUser";
     }
 }
