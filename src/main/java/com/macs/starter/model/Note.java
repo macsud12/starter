@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.UUID;
 
 /**
- * Created by Maksim_Alipov.
+ * Note object
  */
 public class Note implements Comparable<Note> {
     private String content;
@@ -16,7 +16,7 @@ public class Note implements Comparable<Note> {
     }
 
     public Note(String content) {
-        this.content = content;
+        this.content = content == null ? "" : content;
         this.createdDate = new Date();
         this.id = UUID.randomUUID().toString();
     }

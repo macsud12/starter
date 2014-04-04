@@ -3,18 +3,20 @@ package com.macs.starter.storage;
 import com.macs.starter.model.Note;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
- * Created by Maksim_Alipov.
+ * Note Holder
  */
 @Component
 public class NoteHolder {
     private HashMap<String, List<Note>> notes = new HashMap<String, List<Note>>();
 
+
+    public NoteHolder() {
+        // Dummy data
+        notes.put("maks", Arrays.asList(new Note("Note One"), new Note("Note Two")));
+    }
 
     public void save(String username, Note note) {
         if (!notes.containsKey(username)) {
@@ -27,11 +29,11 @@ public class NoteHolder {
         return notes.get(username);
     }
 
-    public boolean delete(String username, String noteId){
+    public boolean delete(String username, String noteId) {
         if (!notes.containsKey(username)) {
             return false;
         }
-        for (Iterator<Note> it=notes.get(username).iterator(); it.hasNext();) {
+        for (Iterator<Note> it = notes.get(username).iterator(); it.hasNext(); ) {
             if (it.next().getId().equals(noteId)) {
                 it.remove();
                 return true;
@@ -40,11 +42,11 @@ public class NoteHolder {
         return false;
     }
 
-    public boolean update(String username, String noteId, String content){
+    public boolean update(String username, String noteId, String content) {
         if (!notes.containsKey(username)) {
             return false;
         }
-        for (Iterator<Note> it=notes.get(username).iterator(); it.hasNext();) {
+        for (Iterator<Note> it = notes.get(username).iterator(); it.hasNext(); ) {
             Note note = it.next();
             if (note.getId().equals(noteId)) {
                 note.setContent(content);

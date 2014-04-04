@@ -1,15 +1,11 @@
 package com.macs.starter.filter;
 
-import com.macs.starter.auth.ClientIdService;
-import com.macs.starter.auth.StarterAuthProvider;
+import com.macs.starter.model.ErrorCode;
+import com.macs.starter.storage.ClientIdHolder;
+import com.macs.starter.util.HttpUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -18,35 +14,29 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Arrays;
 
 /**
- * Created by Maksim_Alipov.
+ * Filter for checking Client ID
  */
 @Component
 public class ClientIdFilter extends OncePerRequestFilter {
+    public static final String CLIENT_ID_HEADER = "client-id";
 
     private static final Log log = LogFactory.getLog(ClientIdFilter.class);
 
     @Autowired
-    ClientIdService clientIdService;
-
-    @Autowired
-    @Qualifier("starterAuthProvider")
-    StarterAuthProvider starterAuthProvider;
+    ClientIdHolder clientIdHolder;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
-        response.addHeader("token:", "filter");
-        if (clientIdService.isClientIdValid(request.getHeader("client-id"))) {
-            log.info("auth started");
-            Authentication auth = starterAuthProvider.authenticate(new UsernamePasswordAuthenticationToken("user", "password", Arrays.asList(new SimpleGrantedAuthority("USER"))));
-            SecurityContextHolder.getContext().setAuthentication(auth);
-            log.info("auth finished");
+        if (!clientIdHolder.isValid(request.getHeader(CLIENT_ID_HEADER))) {
+            HttpUtils.fillWithError(response, ErrorCode.FORBIDDEN, "Client ID is wrong");
+        } else {
+            filterChain.doFilter(request, response);
         }
-
-        filterChain.doFilter(request, response);
     }
+
+
 }
