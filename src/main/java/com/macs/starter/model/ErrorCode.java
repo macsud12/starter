@@ -32,10 +32,4 @@ public enum ErrorCode {
     public int getStatus() {
         return status;
     }
-
-    public String toJSON() {
-        return "{\"Error\":" +
-                "{\"errorCode\":" + errorCode +
-                ", \"message\":\"" + message + "\"}}";
-    }
 }

@@ -1,10 +1,12 @@
 package com.macs.starter.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * Basic Response
  */
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class BasicResponse<T> {
     private String version = "1.0";
     private T content;

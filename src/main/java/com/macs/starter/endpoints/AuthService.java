@@ -2,6 +2,7 @@ package com.macs.starter.endpoints;
 
 import com.macs.starter.filter.TokenAuthFilter;
 import com.macs.starter.model.BasicResponse;
+import com.macs.starter.model.ErrorCode;
 import com.macs.starter.model.SessionToken;
 import com.macs.starter.model.User;
 import com.macs.starter.storage.TokenHolder;
@@ -12,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.ws.WebServiceException;
 
 /**
  * Auth Service
@@ -38,7 +38,8 @@ public class AuthService {
         User user = userHolder.getUser(username, password);
 
         if (user == null) {
-            throw new WebServiceException("Invalid credentials");
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+            return new BasicResponse<String>(ErrorCode.UNAUTHORIZED, "Bad Credentials");
         }
 
         SessionToken sessionToken = new SessionToken(user.getUsername());

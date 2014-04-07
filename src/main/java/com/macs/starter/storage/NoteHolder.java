@@ -15,7 +15,7 @@ public class NoteHolder {
 
     public NoteHolder() {
         // Dummy data
-        notes.put("maks", Arrays.asList(new Note("Note One"), new Note("Note Two")));
+        notes.put("maks", new ArrayList(Arrays.asList(new Note("Note One"), new Note("Note Two"))));
     }
 
     public void save(String username, Note note) {

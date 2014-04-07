@@ -50,6 +50,7 @@ public class TokenAuthFilter extends OncePerRequestFilter {
                 SecurityContextHolder.getContext().setAuthentication(auth);
             } catch (AuthenticationException e) {
                 HttpUtils.fillWithError(response, ErrorCode.UNAUTHORIZED, "Provided Token is not valid");
+                log.warn("SEC: Unauthorized token attempt: " + accessToken);
                 return;
             }
         }
